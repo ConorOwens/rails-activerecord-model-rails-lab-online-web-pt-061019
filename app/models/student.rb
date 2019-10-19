@@ -1,8 +1,7 @@
 class Student<ActiveRecord::Base
   
   def to_s
-    name = self.first_name +' '+self.lastname
-    name
+    self.first_name +' '+self.lastname
   end
   
 end
